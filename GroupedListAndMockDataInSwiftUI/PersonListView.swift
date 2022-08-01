@@ -9,13 +9,13 @@ import SwiftUI
 
 struct PersonListView: View {
     
-    @StateObject private var viewModel = PersonListViewModel()
+    @StateObject var viewModel = PersonListViewModel()
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(viewModel.people) { person in
-                    Text(person.fullName)
+                    PersonRowView(person: person)
                 }
             }
             .navigationTitle("People")
@@ -35,6 +35,21 @@ struct PersonListView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonListView()
+        PersonListView(viewModel: PersonListViewModel(forPreview: true))
+    }
+}
+
+struct PersonRowView: View {
+    let person: Person
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(person.flag + " " + person.fullName)
+                .font(.largeTitle)
+            Text(person.department)
+                .font(.title2)
+            Text(person.role)
+                .fontWeight(.bold)
+        }
     }
 }
