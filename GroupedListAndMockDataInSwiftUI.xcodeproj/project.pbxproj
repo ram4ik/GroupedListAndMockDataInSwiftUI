@@ -15,6 +15,7 @@
 		5E5F1B7E2897DACC00498A4A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7D2897DACC00498A4A /* Person.swift */; };
 		5E5F1B802897DEBE00498A4A /* PersonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7F2897DEBE00498A4A /* PersonListViewModel.swift */; };
 		5E5F1B832897DFD900498A4A /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B822897DFD900498A4A /* MockService.swift */; };
+		5E5F1B8B2897E59200498A4A /* MOCK_DATA.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1B8A2897E59200498A4A /* MOCK_DATA.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5E5F1B7D2897DACC00498A4A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5E5F1B7F2897DEBE00498A4A /* PersonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewModel.swift; sourceTree = "<group>"; };
 		5E5F1B822897DFD900498A4A /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		5E5F1B8A2897E59200498A4A /* MOCK_DATA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MOCK_DATA.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		5E5F1B812897DFC700498A4A /* MockData */ = {
 			isa = PBXGroup;
 			children = (
+				5E5F1B8A2897E59200498A4A /* MOCK_DATA.json */,
 				5E5F1B822897DFD900498A4A /* MockService.swift */,
 			);
 			path = MockData;
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5F1B8B2897E59200498A4A /* MOCK_DATA.json in Resources */,
 				5E5F1B752897D8C000498A4A /* Preview Assets.xcassets in Resources */,
 				5E5F1B722897D8C000498A4A /* Assets.xcassets in Resources */,
 			);

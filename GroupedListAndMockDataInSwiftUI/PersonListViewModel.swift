@@ -13,7 +13,8 @@ class PersonListViewModel: ObservableObject {
     
     init(forPreview: Bool = false) {
         if forPreview {
-            people = MockService.sampleData
+            //people = MockService.sampleData
+            people = MockService.seed(file: "MOCK_DATA")
         }
     }
 }
