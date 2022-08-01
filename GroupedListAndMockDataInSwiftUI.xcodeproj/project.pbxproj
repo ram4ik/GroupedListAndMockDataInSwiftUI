@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		5E5F1B6E2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B6D2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift */; };
-		5E5F1B702897D8BD00498A4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B6F2897D8BD00498A4A /* ContentView.swift */; };
+		5E5F1B702897D8BD00498A4A /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B6F2897D8BD00498A4A /* PersonListView.swift */; };
 		5E5F1B722897D8C000498A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1B712897D8C000498A4A /* Assets.xcassets */; };
 		5E5F1B752897D8C000498A4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1B742897D8C000498A4A /* Preview Assets.xcassets */; };
+		5E5F1B7C2897D91900498A4A /* ExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7B2897D91900498A4A /* ExtensionBundle.swift */; };
+		5E5F1B7E2897DACC00498A4A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7D2897DACC00498A4A /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E5F1B6A2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedListAndMockDataInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5F1B6D2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListAndMockDataInSwiftUIApp.swift; sourceTree = "<group>"; };
-		5E5F1B6F2897D8BD00498A4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E5F1B6F2897D8BD00498A4A /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
 		5E5F1B712897D8C000498A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5F1B742897D8C000498A4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E5F1B7B2897D91900498A4A /* ExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionBundle.swift; sourceTree = "<group>"; };
+		5E5F1B7D2897DACC00498A4A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				5E5F1B6D2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift */,
-				5E5F1B6F2897D8BD00498A4A /* ContentView.swift */,
+				5E5F1B6F2897D8BD00498A4A /* PersonListView.swift */,
+				5E5F1B7B2897D91900498A4A /* ExtensionBundle.swift */,
 				5E5F1B712897D8C000498A4A /* Assets.xcassets */,
 				5E5F1B732897D8C000498A4A /* Preview Content */,
+				5E5F1B7D2897DACC00498A4A /* Person.swift */,
 			);
 			path = GroupedListAndMockDataInSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E5F1B702897D8BD00498A4A /* ContentView.swift in Sources */,
+				5E5F1B702897D8BD00498A4A /* PersonListView.swift in Sources */,
 				5E5F1B6E2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift in Sources */,
+				5E5F1B7E2897DACC00498A4A /* Person.swift in Sources */,
+				5E5F1B7C2897D91900498A4A /* ExtensionBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
