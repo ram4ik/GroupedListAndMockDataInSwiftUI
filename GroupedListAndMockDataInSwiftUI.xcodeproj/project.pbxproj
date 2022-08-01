@@ -13,6 +13,7 @@
 		5E5F1B752897D8C000498A4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F1B742897D8C000498A4A /* Preview Assets.xcassets */; };
 		5E5F1B7C2897D91900498A4A /* ExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7B2897D91900498A4A /* ExtensionBundle.swift */; };
 		5E5F1B7E2897DACC00498A4A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7D2897DACC00498A4A /* Person.swift */; };
+		5E5F1B802897DEBE00498A4A /* PersonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5F1B7F2897DEBE00498A4A /* PersonListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5E5F1B742897D8C000498A4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E5F1B7B2897D91900498A4A /* ExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionBundle.swift; sourceTree = "<group>"; };
 		5E5F1B7D2897DACC00498A4A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5E5F1B7F2897DEBE00498A4A /* PersonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5E5F1B712897D8C000498A4A /* Assets.xcassets */,
 				5E5F1B732897D8C000498A4A /* Preview Content */,
 				5E5F1B7D2897DACC00498A4A /* Person.swift */,
+				5E5F1B7F2897DEBE00498A4A /* PersonListViewModel.swift */,
 			);
 			path = GroupedListAndMockDataInSwiftUI;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5F1B802897DEBE00498A4A /* PersonListViewModel.swift in Sources */,
 				5E5F1B702897D8BD00498A4A /* PersonListView.swift in Sources */,
 				5E5F1B6E2897D8BD00498A4A /* GroupedListAndMockDataInSwiftUIApp.swift in Sources */,
 				5E5F1B7E2897DACC00498A4A /* Person.swift in Sources */,

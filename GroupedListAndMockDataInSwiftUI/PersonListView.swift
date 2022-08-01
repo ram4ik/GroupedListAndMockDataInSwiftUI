@@ -8,9 +8,28 @@
 import SwiftUI
 
 struct PersonListView: View {
+    
+    @StateObject private var viewModel = PersonListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(viewModel.people) { person in
+                    Text(person.fullName)
+                }
+            }
+            .navigationTitle("People")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "plus.circle.fill")
+                    }
+                    .imageScale(.large)
+                }
+            }
+        }
     }
 }
 
